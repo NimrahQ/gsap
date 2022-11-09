@@ -6,11 +6,14 @@
     box-sizing: border-box;
 }
 body{
-   background: url("images/portrait-pink-haired-curly-thoughtful-woman-purple-sweater-fuchsia-sunglasses-posing-isolated-wall.jpg");
+    background: url(images/portrait-pink-haired-curly-thoughtful-woman-purple-sweater-fuchsia-sunglasses-posing-isolated-wall.jpg);
     width: 100%;
     height: 100vh;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
+    background-size: center ;
     background-repeat: no-repeat;
+    background-color: #f099AC;
 }
 
 html{
